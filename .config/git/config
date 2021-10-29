@@ -1,0 +1,10 @@
+[gui]
+	encoding = utf-8
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	st = status
+	ci = commit
+	co = checkout
+[user]
+	email = trolzen@gmail.com
+	name = Yevgeny Zhiglov
