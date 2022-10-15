@@ -1,11 +1,14 @@
 [gui]
 	encoding = utf-8
 [alias]
-	hist = log --pretty=format:'%C(auto)%h %ad | %s%d [%an]' --graph --date=short
-	st = status
-	ci = commit
-	co = checkout
-	tracking-show = for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads
+        st = status
+        ci = commit
+        co = checkout
+        bra = branch --all
+        hist = log --pretty=format:'%C(auto)%h %ad | %s%d [%an]' --graph --date=short --all
+        glog = log --graph --oneline --all
+        alias = config --get-regexp ^alias\\.
+        tracking-show = for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads
 [user]
 	email = trolzen@gmail.com
 	name = Yevgeny Zhiglov
