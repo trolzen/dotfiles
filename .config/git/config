@@ -5,7 +5,7 @@
 	st = status
 	ci = commit
 	co = checkout
-	show-tracking = for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads
+	tracking-show = for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads
 [user]
 	email = trolzen@gmail.com
 	name = Yevgeny Zhiglov
