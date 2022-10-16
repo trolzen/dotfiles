@@ -10,3 +10,4 @@ alias va='source venv/Scripts/activate'
 alias ve='python -m venv venv && source .venv/Scripts/activate && python -m pip install -U pip setuptools wheels'
 
 source "${XDG_CONFIG_HOME}/dotfiles-config.bash"
+__git_complete conf git
