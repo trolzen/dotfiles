@@ -5,4 +5,8 @@ HISTFILE="${XDG_STATE_HOME}/bash/history"
 done
 unset c
 
+alias vc='python -m venv venv'
+alias va='source venv/Scripts/activate'
+alias ve='python -m venv venv && source .venv/Scripts/activate && python -m pip install -U pip setuptools wheels'
+
 source "${XDG_CONFIG_HOME}/dotfiles-config.bash"
